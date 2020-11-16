@@ -1,0 +1,182 @@
+/* Variaveis */
+:root {
+  --first-color: #F8C23E;
+
+  --black-color: #111;
+  --white-color: #e0e0e0;
+}
+
+/* Geral */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn{
+  border: 3px solid var(--first-color);
+  padding: 10px 30px;
+  color: var(--first-color);
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: .1em;
+  font-weight: bold;
+  transition: .2s ease-in-out;
+}
+
+.btn:hover{
+  border-color: (var(--white-color));
+  color: var(--white-color);
+}
+
+.subtitulo{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: var(--black-color);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--black-color);
+  margin: 8px auto;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--black-color);
+  padding: 10px 0;  
+}
+
+.header img{
+  width: 90%;
+  height: auto;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.header_menu ul li a{
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-weight: bold;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+  transition: .2s ease-in-out;
+}
+
+.header_menu ul li a:hover{
+  color: var(--first-color);
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 460px;
+  background: url(../img/bg-intro.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 90px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.introducao h1{
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: 48px;
+  font-weight: bold;  
+}
+
+.quote_externo{
+  max-width: 400px;
+  margin: 0 auto;
+  color: var(--white-color);
+  margin-bottom: 40px;
+}
+
+.quote_externo p {
+  font-style: italic;
+}
+
+.quote_externo p::before,.quote_externo p::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--white-color);
+  margin: 15px auto 10px auto;
+} 
+
+.quote_externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos img{
+  width: 80%;
+}
+
+.produtos_lista li {
+  background-color: var(--first-color);
+  text-align: center;
+}
+
+.produtos_lista li h3{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+
+.produtos_lista li h3::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--black-color);
+  margin: 2px auto;
+}
+
+.produtos_lista li p {
+  padding: 20px 10px;
+}
+
+.produtos_icone{
+  background-color: var(--black-color);
+  padding: 20px;  
+}
