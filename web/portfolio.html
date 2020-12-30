@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Le Violon | Luthieria (Exemplo de website)</title>
+    <title>Le Violon | Portfólio</title>
 
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/grid.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
   </head>
   <body>
     <header class="header">
@@ -21,107 +22,38 @@
           <ul>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a class="menu_ativo" href="portfolio.html">Portfólio</a></li>
             <li><a href="contato.html">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section class="introducao">
+    <section class="introducao-interna interna_portfolio">
       <div class="container">
-        <h1 class="titulo_grande">Violinos feitos à mão</h1>
-
-        <blockquote class="quote_externo">
-          <p>
-            "A música é o vínculo que une a vida do espírito à vida dos
-            sentidos. A melodia é a vida sensível da poesia."
-          </p>
-          <cite>LUDWIG VAN BEETHOVEN</cite>
-        </blockquote>
-        <a href="produtos.html" class="btn">Orçamento</a>
+        <h1>Portfólio</h1>
+        <p>Modelos que já fabricamos</p>
       </div>
     </section>
 
-    <section class="produtos container">
-      <h2 class="subtitulo">Produtos</h2>
-      <ul class="produtos_lista">
-        <li class="grid-1-3">
-          <div class="produtos_icone">
-            <img src="/assets/img/produtos/icone1.svg" alt="Estudante" />
-          </div>
-          <h3>Estudante</h3>
-          <p>Instrumentos para iniciantes crianças e adultos</p>
-        </li>
-
-        <li class="grid-1-3">
-          <div class="produtos_icone">
-            <img src="/assets/img/produtos/icone2.svg" alt="Avançado" />
-          </div>
-          <h3>Avançado</h3>
-          <p>Instrumentos para alunos avançados e entusiastas</p>
-        </li>
-
-        <li class="grid-1-3">
-          <div class="produtos_icone">
-            <img src="/assets/img/produtos/icone3.svg" alt="Profissional" />
-          </div>
-          <h3>Profissional</h3>
-          <p>Instrumentos para integrantes de orquestras e solistas</p>
-        </li>
-      </ul>
-
-      <div class="call">
-        <p>Clique aqui e veja em detalhe os produtos</p>
-        <a href="produtos.html" class="btn btn-preto">Produtos</a>
-      </div>
+    <section class="container">
+      <blockquote class="quote_clientes">
+        <p>
+          "Após ouvir um dos violinos da Leviolon, não tive como não encomendar o
+          meu. Grande foi a alegria quando ouvi o tremendo som emanando daquele
+          instrumento recém criado, simplesmente sensacional."
+        </p>
+        <cite>Seth Marshall</cite>
+      </blockquote>
     </section>
-    <!--Fecha produtos-->
 
     <section class="portfolio">
       <div class="container">
-        <h2 class="subtitulo">Portfólio</h2>
         <ul class="portfolio_lista">
           <li class="grid-8"><img src="./assets/img/foto1.jpg" alt="" /></li>
           <li class="grid-8"><img src="./assets/img/foto2.jpg" alt="" /></li>
           <li class="grid-16"><img src="./assets/img/foto3.jpg" alt="" /></li>
         </ul>
-        <div class="call">
-          <p>Clique aqui e veja nosso portfólio.</p>
-          <a href="portfolio.html" class="btn">Portfólio</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="qualidade container">
-      <h2 class="subtitulo">Qualidade</h2>
-      <img src="./assets/img/LogoQualidade.svg" alt="logoqualidade" />
-      <ul class="qualidade_lista">
-        <li class="grid-1-3">
-          <h3>Madeiras</h3>
-          <p>
-            Instrumentos e acessórios feitos com madeiras selecionadas e de
-            qualidade ímpar
-          </p>
-        </li>
-        <li class="grid-1-3">
-          <h3>Construção</h3>
-          <p>
-            Tudo feito à mão do início ao fim utilizando as técnicas
-            tradicionais da escola Amati
-          </p>
-        </li>
-        <li class="grid-1-3">
-          <h3>Detalhe</h3>
-          <p>
-            Riqueza de detalhes em cada peça atendendo os requisitos até dos
-            mais exigentes
-          </p>
-        </li>
-      </ul>
-      <div class="call">
-        <p>Conheça mais nossa história</p>
-        <a href="sobre.html" class="btn btn-preto">Sobre</a>
       </div>
     </section>
 
