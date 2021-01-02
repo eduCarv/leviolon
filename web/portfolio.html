@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/portfolio.css" />
     <link rel="stylesheet" href="assets/css/responsivo.css" />
+    <script>document.documentElement.classList.add("js");</script>
   </head>
   <body>
     <header class="header">
@@ -37,35 +38,52 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-slide="quote">
       <blockquote class="quote_clientes">
         <p>
-          "Após ouvir um dos violinos da Leviolon, não tive como não encomendar o
-          meu. Grande foi a alegria quando ouvi o tremendo som emanando daquele
-          instrumento recém criado, simplesmente sensacional."
+          "Após ouvir um dos violinos da Leviolon, não tive como não encomendar
+          o meu. Grande foi a alegria quando ouvi o tremendo som emanando
+          daquele instrumento recém criado, simplesmente sensacional."
         </p>
         <cite>Seth Marshall</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>
+          "Meu primeiro instrumento com a Leviolon eu adorei foi feito do jeito que eu queria! Obrigada"
+        </p>
+        <cite>Maria Clara</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>
+          "Poucos instrumentos modernos têm tanta qualidade. Um instrumento digno de um mestre!"
+        </p>
+        <cite>Ivan Rochiniev</cite>
       </blockquote>
     </section>
 
     <section class="portfolio">
-      <div class="container">
+      <div class="container" data-slide="portfolio">
         <ul class="portfolio_lista">
           <li class="grid-8"><img src="./assets/img/foto1.jpg" alt="" /></li>
           <li class="grid-8"><img src="./assets/img/foto2.jpg" alt="" /></li>
           <li class="grid-16"><img src="./assets/img/foto3.jpg" alt="" /></li>
         </ul>
+        <ul class="portfolio_lista">
+          <li class="grid-8"><img src="./assets/img/foto2.jpg" alt="" /></li>
+          <li class="grid-8"><img src="./assets/img/foto1.jpg" alt="" /></li>          
+          <li class="grid-16"><img src="./assets/img/foto3.jpg" alt="" /></li>
+        </ul>        
       </div>
     </section>
 
     <section class="quebra">
       <blockquote class="quote_externo container">
         <p>
-          "Milhares de pessoas cultivam a música; poucas porém têm a revelação
-          dessa grande arte."
+          "Descobri três coisas que não conhecem fronteiras - a musica clássica,
+          o jazz Americano e o aplauso de reconhecimento da platéia."
         </p>
-        <cite>LUDWIG VAN BEETHOVEN</cite>
-      </blockquote>
+        <cite>JASCHA HEIFTZ</cite>
+      </blockquote>      
     </section>
 
     <footer>
@@ -118,6 +136,7 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/simple-slide.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
