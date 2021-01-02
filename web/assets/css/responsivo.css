@@ -1,0 +1,165 @@
+/* Estilo para tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .header {
+    padding: 20px;
+  }
+
+  /*Qualidade home*/
+  .qualidade::after {
+    right: 69px;
+  }
+
+  .qualidade_lista li {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /* Produto*/
+  .produto_item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+
+  .produto_icone {    
+    padding: 23px 0;
+  }
+
+  .produto_info p {    
+    height: 122px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 181px;
+    height: 49px;
+  }
+
+  /*Footer*/
+  .footer-redes ul li a {
+    border: 3px solid #f8c23e;
+    display: block;
+    padding: 5px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .footer-redes ul li a img {
+    width: 26px;
+    height: 26px;
+  }
+} /*Fim tablet*/
+
+/* Estilo para Smartphones */
+@media only screen and (max-width: 787px) {
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto 20px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #f8c23e;
+  }
+
+  .header_menu ul li a.menu_ativo {
+    border-color: #f8c23e;
+  }
+
+  /*Introdução*/
+  .introducao {
+    margin-top: 0;
+    padding-top: 40px;
+    background: url("../img/bg-intro-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introducao h1 {
+    font-size: 36px;
+  }
+
+  /* Introdução interna */
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /*Sobre*/
+  .missao_sobre p {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  /*Call*/
+  .call {
+    padding-top: 10px;
+  }
+
+  /*Qualidade home*/
+  .qualidade::after {
+    display: none;
+  }
+
+  /* Produto*/
+  .produto_item h2 {
+    top: -100px;
+    margin-bottom: -70px;
+  }
+
+  .produto_icone {    
+    padding: 23px 0;
+  }
+
+  .produto_info p {    
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+
+  .produto_info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0px;
+}
+
+/*Contato*/
+.form_contato {
+  padding-right: 0px;
+  margin-bottom: 40px;
+}
+
+} /*Fim mobile*/
