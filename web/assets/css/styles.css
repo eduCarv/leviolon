@@ -36,7 +36,7 @@ img {
 }
 
 .btn:hover{
-  border-color: (var(--white-color));
+  border-color: var(--white-color);
   color: var(--white-color);
 }
 
@@ -388,7 +388,7 @@ img {
 }
 
 .footer-redes ul li a:hover {
-  border-color: #fff;
+  border-color: var(--first-color);
 }
 
 .copyright {
