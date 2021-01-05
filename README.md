@@ -1,4 +1,4 @@
-![Cover](https://github.com/eduCarv/leviolon/blob/master/Mockup-Leviolon!.jpg)
+![Cover](https://github.com/eduCarv/leviolon/blob/main/MOCKUP!.png)
 
 
 <br>
