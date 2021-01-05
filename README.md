@@ -15,4 +15,4 @@
 
 - Website responsivo desenvolvido para aperfeiçoar os conhecimentos adquiridos no curso de Web Design Completo da Origamid.
 
-Você pode ver ele em pleno funcionamento <a href="bit.ly/leviolon-site">aqui<a/>
+Você pode ver ele em pleno funcionamento <a href="bit.ly/leviolon-site" target="_blank">aqui<a/>
